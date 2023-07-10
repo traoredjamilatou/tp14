@@ -1,0 +1,26 @@
+header{
+background-image: url(2.jpg);
+height: 600px;
+}
+header section nav{
+    margin-top: 0px;
+    display: flex;float: right;
+    float: right;   
+/*justify-content:space-btween;*/
+}
+header p{
+    font-size: 20px;
+}
+header nav a {
+    font-size: 20px;
+    color: white;
+    border-bottom: none ;
+    text-decoration: solid;
+    margin-left: 20px;
+    /*diplay: flex; */
+    /*justify-content: space-between*/;
+}
+.A {
+    text-align: center;
+    margin-top: 150px;
+}

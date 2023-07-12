@@ -1,14 +1,19 @@
-header{
+header {
 background-image: url(2.jpg);
+background-repeat: no-repeat;
 height: 600px;
+background-size: cover;
 }
-header section nav{
+section header nav {
     margin-top: 0px;
     display: flex;float: right;
     float: right;   
 /*justify-content:space-btween;*/
 }
-header p{
+h1{
+    color: white;
+}
+header p {
     font-size: 20px;
 }
 header nav a {
@@ -21,6 +26,45 @@ header nav a {
     /*justify-content: space-between*/;
 }
 .A {
+    color: white;
     text-align: center;
     margin-top: 150px;
+}
+h2{
+    text-align: center;
+}
+.T{
+    display: flex;
+}
+.M {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-right: 20px;
+}
+.P {
+    display: flex;
+}
+.P .G i {
+    color: dodgerblue;
+    font-size: 50px;
+    
+}
+.P{
+    padding:30px 100px 30px 100;
+}
+.D p{
+    font-size: 25px;
+}
+h5{
+    text-align: center;
+    color: deepskyblue;
+}
+.I {
+    display: grid;
+    grid-template-columns:repeat(4 1fr);
+}
+.DJ{
+    
 }

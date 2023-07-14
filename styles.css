@@ -1,5 +1,5 @@
 header {
-background-image: url(2.jpg);
+background-image: url(3.jpg);
 background-repeat: no-repeat;
 height: 600px;
 background-size: cover;
@@ -7,7 +7,8 @@ background-size: cover;
 section header nav {
     margin-top: 0px;
     display: flex;float: right;
-    float: right;   
+    float: right;
+       
 /*justify-content:space-btween;*/
 }
 h1{
@@ -29,6 +30,13 @@ header nav a {
     color: white;
     text-align: center;
     margin-top: 150px;
+}
+.A button{
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: none;
+    border-radius: 1cm;
+    padding: 10px 50px;
 }
 h2{
     text-align: center;
@@ -99,4 +107,13 @@ h5{
     justify-content: center;
     color: aliceblue;
    width: 300px;
+text-align: center;
+}
+.MM{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.MM button{
+    color:aliceblue;
+    background-color:  dodgerblue;
 }
